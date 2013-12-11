@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{D3271E01-C943-49A6-A76D-4A3B1C28482D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{974E2DA8-6299-4120-A398-34A80EECBC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remix.Engine", "Source\Remix.Engine\Remix.Engine.csproj", "{CAD5FC22-86DA-4E47-A126-D36E59965F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remix.Core", "Source\Remix.Core\Remix.Core.csproj", "{07DC7F71-712B-4BEB-AA43-AEF9ABDEF5DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9047C1C7-9624-43B2-9B68-A72A548D462B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4C60E19-672C-4915-B4B6-364920758BCA}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remix.Management", "Source\Remix.Management\Remix.Management.csproj", "{CE5447B8-5082-4202-87B5-731C6E557D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD5FC22-86DA-4E47-A126-D36E59965F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD5FC22-86DA-4E47-A126-D36E59965F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD5FC22-86DA-4E47-A126-D36E59965F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD5FC22-86DA-4E47-A126-D36E59965F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DC7F71-712B-4BEB-AA43-AEF9ABDEF5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DC7F71-712B-4BEB-AA43-AEF9ABDEF5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DC7F71-712B-4BEB-AA43-AEF9ABDEF5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DC7F71-712B-4BEB-AA43-AEF9ABDEF5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5447B8-5082-4202-87B5-731C6E557D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5447B8-5082-4202-87B5-731C6E557D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5447B8-5082-4202-87B5-731C6E557D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5447B8-5082-4202-87B5-731C6E557D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAD5FC22-86DA-4E47-A126-D36E59965F25} = {D3271E01-C943-49A6-A76D-4A3B1C28482D}
+		{CE5447B8-5082-4202-87B5-731C6E557D5B} = {974E2DA8-6299-4120-A398-34A80EECBC26}
+	EndGlobalSection
+EndGlobal
