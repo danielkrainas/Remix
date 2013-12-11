@@ -1,2 +1,2 @@
-remixmud
+Remix
 ========
